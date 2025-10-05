@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Anime Search</title>
+  <link rel="stylesheet" href="/css/index.css">
+</head>
+<body>
+  <!-- Search Wrapper -->
+  <div id="searchWrapper">
+    <div id="searchBox">
+      <input id="input" type="text" placeholder="ابحث عن أنمي...">
+      <button id="searchButton">🔍</button>
+    </div>
+  </div>
+
+  <!-- Messages (Loader / Error / No Results) -->
+  <div id="messageBox" class="hidden"></div>
+
+  <!-- Results -->
+  <div id="resultsContainer" class="grid-container"></div>
+
+  <!-- Detail / Player -->
+  <div id="detailView" class="hidden"></div>
+
+  <script src="/js/search.js"></script>
+</body>
+</html>
